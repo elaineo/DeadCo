@@ -24,6 +24,8 @@
 		B9DF6B501BE708B80050EF63 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DF6B4E1BE708B80050EF63 /* CustomOverlayView.xib */; };
 		B9DF6B521BE708C80050EF63 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B511BE708C80050EF63 /* ExampleOverlayView.swift */; };
 		B9DF6B541BE70B5A0050EF63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DF6B531BE70B5A0050EF63 /* Images.xcassets */; };
+		B9DF6B561BE7105A0050EF63 /* SHXView in Resources */ = {isa = PBXBuildFile; fileRef = B9DF6B551BE7105A0050EF63 /* SHXView */; };
+		B9DF6B581BE7106B0050EF63 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B571BE7106B0050EF63 /* CompanyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		B9DF6B4E1BE708B80050EF63 /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
 		B9DF6B511BE708C80050EF63 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
 		B9DF6B531BE70B5A0050EF63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9DF6B551BE7105A0050EF63 /* SHXView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SHXView; sourceTree = "<group>"; };
+		B9DF6B571BE7106B0050EF63 /* CompanyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		B99BFC0F1BE6F24E0057C86A = {
 			isa = PBXGroup;
 			children = (
+				B9DF6B551BE7105A0050EF63 /* SHXView */,
 				B99BFC1A1BE6F24E0057C86A /* DeadCo */,
 				B99BFC331BE6F24E0057C86A /* DeadCoTests */,
 				B99BFC3E1BE6F24E0057C86A /* DeadCoUITests */,
@@ -142,6 +147,7 @@
 				B99BFC1B1BE6F24E0057C86A /* AppDelegate.swift */,
 				B99BFC1D1BE6F24E0057C86A /* RootViewController.swift */,
 				B9DF6B471BE7081C0050EF63 /* ViewController.swift */,
+				B9DF6B571BE7106B0050EF63 /* CompanyModel.swift */,
 				B9DF6B491BE708240050EF63 /* BackgroundAnimationViewController.swift */,
 				B9DF6B4B1BE7088E0050EF63 /* CustomKolodaView.swift */,
 				B9DF6B4D1BE708B80050EF63 /* CustomOverlayView.swift */,
@@ -286,6 +292,7 @@
 				B99BFC2A1BE6F24E0057C86A /* LaunchScreen.storyboard in Resources */,
 				B9DF6B541BE70B5A0050EF63 /* Images.xcassets in Resources */,
 				B99BFC271BE6F24E0057C86A /* Assets.xcassets in Resources */,
+				B9DF6B561BE7105A0050EF63 /* SHXView in Resources */,
 				B9DF6B501BE708B80050EF63 /* CustomOverlayView.xib in Resources */,
 				B99BFC251BE6F24E0057C86A /* Main.storyboard in Resources */,
 			);
@@ -369,6 +376,7 @@
 				B9DF6B4A1BE708240050EF63 /* BackgroundAnimationViewController.swift in Sources */,
 				B99BFC201BE6F24E0057C86A /* DataViewController.swift in Sources */,
 				B99BFC1C1BE6F24E0057C86A /* AppDelegate.swift in Sources */,
+				B9DF6B581BE7106B0050EF63 /* CompanyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

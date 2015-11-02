@@ -1,11 +1,10 @@
 //
 //  CustomOverlayView.swift
-//  Koloda
+//  DeadCo
 //
-//  Created by Eugene Andreyev on 7/27/15.
-//  Copyright (c) 2015 CocoaPods. All rights reserved.
+//  Created by Elaine Ou on 11/1/15.
+//  Copyright © 2015 Elaine Ou. All rights reserved.
 //
-
 import UIKit
 import Koloda
 
