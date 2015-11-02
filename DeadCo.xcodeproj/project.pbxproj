@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72BD8F09C3EF61A0DCA6881 /* Pods_DeadCo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E5DC453E1827D0C3E0CFB8 /* Pods_DeadCo.framework */; };
 		B99BFC1C1BE6F24E0057C86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99BFC1B1BE6F24E0057C86A /* AppDelegate.swift */; };
 		B99BFC1E1BE6F24E0057C86A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99BFC1D1BE6F24E0057C86A /* RootViewController.swift */; };
 		B99BFC201BE6F24E0057C86A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99BFC1F1BE6F24E0057C86A /* DataViewController.swift */; };
@@ -16,6 +17,13 @@
 		B99BFC2A1BE6F24E0057C86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99BFC281BE6F24E0057C86A /* LaunchScreen.storyboard */; };
 		B99BFC351BE6F24E0057C86A /* DeadCoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99BFC341BE6F24E0057C86A /* DeadCoTests.swift */; };
 		B99BFC401BE6F24E0057C86A /* DeadCoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99BFC3F1BE6F24E0057C86A /* DeadCoUITests.swift */; };
+		B9DF6B481BE7081C0050EF63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B471BE7081C0050EF63 /* ViewController.swift */; };
+		B9DF6B4A1BE708240050EF63 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B491BE708240050EF63 /* BackgroundAnimationViewController.swift */; };
+		B9DF6B4C1BE7088E0050EF63 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B4B1BE7088E0050EF63 /* CustomKolodaView.swift */; };
+		B9DF6B4F1BE708B80050EF63 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B4D1BE708B80050EF63 /* CustomOverlayView.swift */; };
+		B9DF6B501BE708B80050EF63 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DF6B4E1BE708B80050EF63 /* CustomOverlayView.xib */; };
+		B9DF6B521BE708C80050EF63 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF6B511BE708C80050EF63 /* ExampleOverlayView.swift */; };
+		B9DF6B541BE70B5A0050EF63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DF6B531BE70B5A0050EF63 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57CD34CC602A62EC43B8B40F /* Pods-DeadCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeadCo/Pods-DeadCo.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E5DC453E1827D0C3E0CFB8 /* Pods_DeadCo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeadCo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78DB7B8A8C4109D47675B2 /* Pods-DeadCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeadCo/Pods-DeadCo.release.xcconfig"; sourceTree = "<group>"; };
 		B99BFC181BE6F24E0057C86A /* DeadCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99BFC1B1BE6F24E0057C86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B99BFC1D1BE6F24E0057C86A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +62,13 @@
 		B99BFC3B1BE6F24E0057C86A /* DeadCoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadCoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99BFC3F1BE6F24E0057C86A /* DeadCoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadCoUITests.swift; sourceTree = "<group>"; };
 		B99BFC411BE6F24E0057C86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DF6B471BE7081C0050EF63 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9DF6B491BE708240050EF63 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		B9DF6B4B1BE7088E0050EF63 /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		B9DF6B4D1BE708B80050EF63 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		B9DF6B4E1BE708B80050EF63 /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		B9DF6B511BE708C80050EF63 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		B9DF6B531BE70B5A0050EF63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72BD8F09C3EF61A0DCA6881 /* Pods_DeadCo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BAB7916CE696047B5664FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E5DC453E1827D0C3E0CFB8 /* Pods_DeadCo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		695B586521D2965F3799DEA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57CD34CC602A62EC43B8B40F /* Pods-DeadCo.debug.xcconfig */,
+				AF78DB7B8A8C4109D47675B2 /* Pods-DeadCo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B99BFC0F1BE6F24E0057C86A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				B99BFC331BE6F24E0057C86A /* DeadCoTests */,
 				B99BFC3E1BE6F24E0057C86A /* DeadCoUITests */,
 				B99BFC191BE6F24E0057C86A /* Products */,
+				695B586521D2965F3799DEA5 /* Pods */,
+				5BAB7916CE696047B5664FC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +141,13 @@
 			children = (
 				B99BFC1B1BE6F24E0057C86A /* AppDelegate.swift */,
 				B99BFC1D1BE6F24E0057C86A /* RootViewController.swift */,
+				B9DF6B471BE7081C0050EF63 /* ViewController.swift */,
+				B9DF6B491BE708240050EF63 /* BackgroundAnimationViewController.swift */,
+				B9DF6B4B1BE7088E0050EF63 /* CustomKolodaView.swift */,
+				B9DF6B4D1BE708B80050EF63 /* CustomOverlayView.swift */,
+				B9DF6B531BE70B5A0050EF63 /* Images.xcassets */,
+				B9DF6B511BE708C80050EF63 /* ExampleOverlayView.swift */,
+				B9DF6B4E1BE708B80050EF63 /* CustomOverlayView.xib */,
 				B99BFC1F1BE6F24E0057C86A /* DataViewController.swift */,
 				B99BFC211BE6F24E0057C86A /* ModelController.swift */,
 				B99BFC231BE6F24E0057C86A /* Main.storyboard */,
@@ -138,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B99BFC441BE6F24E0057C86A /* Build configuration list for PBXNativeTarget "DeadCo" */;
 			buildPhases = (
+				4051DA5C9DFFCCBFA4A43F95 /* Check Pods Manifest.lock */,
 				B99BFC141BE6F24E0057C86A /* Sources */,
 				B99BFC151BE6F24E0057C86A /* Frameworks */,
 				B99BFC161BE6F24E0057C86A /* Resources */,
+				AD7005487ECA44FC53608A9E /* Embed Pods Frameworks */,
+				251757697A2B0B83EA167D8D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B99BFC2A1BE6F24E0057C86A /* LaunchScreen.storyboard in Resources */,
+				B9DF6B541BE70B5A0050EF63 /* Images.xcassets in Resources */,
 				B99BFC271BE6F24E0057C86A /* Assets.xcassets in Resources */,
+				B9DF6B501BE708B80050EF63 /* CustomOverlayView.xib in Resources */,
 				B99BFC251BE6F24E0057C86A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +307,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		251757697A2B0B83EA167D8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadCo/Pods-DeadCo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4051DA5C9DFFCCBFA4A43F95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7005487ECA44FC53608A9E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadCo/Pods-DeadCo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B99BFC141BE6F24E0057C86A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF6B4C1BE7088E0050EF63 /* CustomKolodaView.swift in Sources */,
+				B9DF6B481BE7081C0050EF63 /* ViewController.swift in Sources */,
+				B9DF6B4F1BE708B80050EF63 /* CustomOverlayView.swift in Sources */,
 				B99BFC1E1BE6F24E0057C86A /* RootViewController.swift in Sources */,
 				B99BFC221BE6F24E0057C86A /* ModelController.swift in Sources */,
+				B9DF6B521BE708C80050EF63 /* ExampleOverlayView.swift in Sources */,
+				B9DF6B4A1BE708240050EF63 /* BackgroundAnimationViewController.swift in Sources */,
 				B99BFC201BE6F24E0057C86A /* DataViewController.swift in Sources */,
 				B99BFC1C1BE6F24E0057C86A /* AppDelegate.swift in Sources */,
 			);
@@ -403,6 +506,7 @@
 		};
 		B99BFC451BE6F24E0057C86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CD34CC602A62EC43B8B40F /* Pods-DeadCo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DeadCo/Info.plist;
@@ -414,6 +518,7 @@
 		};
 		B99BFC461BE6F24E0057C86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF78DB7B8A8C4109D47675B2 /* Pods-DeadCo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DeadCo/Info.plist;
@@ -490,6 +595,7 @@
 				B99BFC461BE6F24E0057C86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B99BFC471BE6F24E0057C86A /* Build configuration list for PBXNativeTarget "DeadCoTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +604,7 @@
 				B99BFC491BE6F24E0057C86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B99BFC4A1BE6F24E0057C86A /* Build configuration list for PBXNativeTarget "DeadCoUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +613,7 @@
 				B99BFC4C1BE6F24E0057C86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
